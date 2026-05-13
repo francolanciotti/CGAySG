@@ -12,7 +12,7 @@ let colorMarAbajo;
 function preload() {
   // Cargamos las imágenes de las nubes antes de que inicie el sketch
   for (let i = 1; i <= cantidadNubes; i++) {
-    imagenesNubes.push(loadImage('nube' + i + '.png'));
+    imagenesNubes.push(loadImage('img/nube' + i + '.png'));
   }
 }
 
